@@ -1,0 +1,4 @@
+!+tab==>boilerplate html
+h1.test +tab==>class
+h1#hello +tab ==>id
+#hello +tab ==>div

@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashdeepupadhyay/website.git"
+  },
+  "author": "ashdeep upadhyay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashdeepupadhyay/website/issues"
+  },
+  "homepage": "https://github.com/ashdeepupadhyay/website#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
