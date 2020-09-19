@@ -155,6 +155,37 @@ main {
   }
 }
 //Button Styles
+.nav {
+  overflow: hidden;
+}
+.nav ul {
+  list-style: none;
+  text-align: center;
+}
+.nav ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+.nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: silver;
+  color: black;
+}
+.nav ul li a:hover {
+  background: $secondary-color;
+  color: set-text-color($secondary-color);
+}
+
+.button {
+  transition-duration: 0.4s;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+
 .btn {
   display: block;
   padding: 0.5 rem 1 rem;
