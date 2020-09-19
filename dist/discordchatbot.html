@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <!--<div class="overlay"></div>-->
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <div class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">MY WORK</a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact.html" class="nav-link">HOW TO REACH ME</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="contact">
+      <h1 class="lg-heading">Discord Chat Bot</h1>
+      <h2 class="sm-heading">
+        <span class="text-secondary">Technology Used : </span
+        >Nodejs,Mongodb,google custom search API
+      </h2>
+      <a href="https://github.com/ashdeepupadhyay/DicordChatBot">
+        <i class="fab fa-github">Github</i>
+      </a>
+      <div class="boxes">
+        <div>
+          Created a chat bot for a server with some functionality.
+
+          <ul>
+            <li>If a user sends 'hi', the bot will reply 'hey'</li>
+            <li>
+              if a user sends '!google search_keyword', and it'll reply with the
+              top five links for the search_keyword for example !google cricket
+              it will return with top five links from google custom search api
+              for cricket.
+            </li>
+            <li>
+              if a user sends '!recent search', and it'll reply with a list of
+              similar search in the user's history for example you have given
+              following commands !google apple fruit,!google football,!google
+              banana fruit and then you did ! recent fruit the result will be
+              banana,apple.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer id="main-footer">Copyright &copy; 2020</footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
