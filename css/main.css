@@ -213,6 +213,34 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+.nav {
+  overflow: hidden; }
+
+.nav ul {
+  list-style: none;
+  text-align: center; }
+
+.nav ul li {
+  display: inline-block;
+  vertical-align: top; }
+
+.nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: silver;
+  color: black; }
+
+.nav ul li a:hover {
+  background: #eece1a;
+  color: #000; }
+
+.button {
+  transition-duration: 0.4s; }
+  .button:hover {
+    background: #eece1a;
+    color: #000; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5 rem 1 rem;
